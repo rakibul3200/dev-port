@@ -167,3 +167,31 @@ main {
     font-weight: 700;
     margin-bottom: 50px;
 }
+.resume-contain{
+    display: flex;
+    gap: 25px;
+}
+.resume.redutit{
+    font-weight: 700;
+    font-size: 25px;
+}
+.resume.redusubtit{
+color: #757575;
+font-weight: 600;
+font-size: 20px;
+}
+.resume.edudis{
+    color: #757;
+}
+.ritem{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.redusubtit{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#resume-bttn{
+    text-align: center;
+    margin-top: 50px;
+}
