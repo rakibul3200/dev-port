@@ -28,7 +28,6 @@ nav ul {
     display: flex;
     align-items: center;
 }
-
 .btn-primary {
     height: 64px;
     border-radius: 5px;
@@ -38,4 +37,30 @@ nav ul {
     border: 0px;
     color: aliceblue;
     padding: 18px 35px;
+}
+.header{
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+/* banner styles */
+.banner{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+#banner-subtitle{
+    font-weight: 600;
+    font-size: 45px;color: #474747;
+}
+#banner-title{
+    font-weight: 700;
+font-size: 85px;color: #181818;
+margin: 20px;
+}
+#ban-discrip{
+    font-weight: 400;
+font-size: 18px;color: #757575;
+margin-bottom: 30px;
 }
