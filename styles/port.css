@@ -28,6 +28,7 @@ nav ul {
     display: flex;
     align-items: center;
 }
+
 .btn-primary {
     height: 64px;
     border-radius: 5px;
@@ -38,29 +39,76 @@ nav ul {
     color: aliceblue;
     padding: 18px 35px;
 }
-.header{
+
+.header {
     background: #FFF8F3;
-    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left;
 }
+
 /* banner styles */
-.banner{
+.banner {
     margin: 0 200px;
     display: flex;
     align-items: center;
 }
-#banner-subtitle{
+
+#banner-subtitle {
     font-weight: 600;
-    font-size: 45px;color: #474747;
+    font-size: 45px;
+    color: #474747;
 }
-#banner-title{
+
+#banner-title {
     font-weight: 700;
-font-size: 85px;color: #181818;
-margin: 20px;
+    font-size: 85px;
+    color: #181818;
+    margin: 20px;
 }
-#ban-discrip{
+
+#ban-discrip {
     font-weight: 400;
-font-size: 18px;color: #757575;
-margin-bottom: 30px;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about styles */
+.about {
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.section-title {
+ 
+    margin-bottom: 30px;
+}
+
+.sec-dep {
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.about-info-contain{
+    display: flex;
+    justify-content: space-around;
+}
+.about.info-title{
+    font-size: 20px;
+    color: #757575;
+
+}
+.info-des{
+font-size: 20px;
+color: #474747;
 }
